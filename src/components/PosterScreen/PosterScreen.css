@@ -1,0 +1,16 @@
+.PosterScreen {
+}
+.PosterScreen h1 {
+  text-align: center;
+}
+.PosterScreen img {
+  max-width: 80%;
+  max-height: 800px;
+  margin: 10px;
+}
+.PosterScreen .PosterScreen__film_container {
+  display: flex;
+}
+.PosterScreen .PosterScreen__film_info {
+  margin: 10px;
+}

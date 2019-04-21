@@ -1,0 +1,42 @@
+.SearchScreen {
+  text-align: center;
+}
+
+.SearchScreen .SearchScreen__form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.SearchScreen .SearchScreen__form__input {
+  flex-grow: 1;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 5px 20px;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.SearchScreen .SearchScreen__form__submit {
+  min-width: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 5px 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.SearchScreen .SearchScreen__form__submit:hover {
+  opacity: 1;
+}
+
+.SearchScreen .SearchScreen__error {
+  color: red;
+  font-size: 15px;
+  display: block;
+  margin-top: 15px;
+}

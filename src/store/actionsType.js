@@ -1,0 +1,1 @@
+export const UPDATE_FILMS_LIST = `UPDATE_FILMS_LIST`;

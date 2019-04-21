@@ -1,0 +1,15 @@
+.BackBtn {
+  border: 1px solid grey;
+  font-size: 20px;
+  line-height: 1;
+  padding: 2px 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: black;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.BackBtn:hover {
+  opacity: 1;
+}
